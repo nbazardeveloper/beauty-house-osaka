@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-wrap -mx-4">
 
           {/* Лого и Описание */}
-          <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12 mb-12 lg:mb-16">
+        <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12 mb-12 lg:mb-16 flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="/" className="mb-8 inline-block">
               <h2 className="text-2xl font-black uppercase tracking-[0.2em] text-white">
                 Osaka <span className="text-[#F4E1E0]">Beauty</span>
@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
 
           {/* Навигация */}
-          <div className="w-full px-4 sm:w-1/2 lg:w-2/12 mb-12 lg:mb-16">
+        <div className="w-full px-4 sm:w-1/2 lg:w-2/12 mb-12 lg:mb-16 flex flex-col items-center md:items-start text-center md:text-left">
             <h4 className="mb-8 text-[10px] font-bold uppercase tracking-[0.3em] text-[#F4E1E0]/70">Navigation</h4>
             <ul className="space-y-4">
               <li><Link href="/#services" className="text-sm font-light hover:text-white transition-colors">Services</Link></li>
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
 
           {/* Контакты */}
-          <div className="w-full px-4 sm:w-1/2 lg:w-3/12 mb-12 lg:mb-16">
+          <div className="w-full px-4 sm:w-1/2 lg:w-3/12 mb-12 lg:mb-16 flex flex-col items-center md:items-start text-center md:text-left">
             <h4 className="mb-8 text-[10px] font-bold uppercase tracking-[0.3em] text-[#F4E1E0]/70">Find Us</h4>
             <p className="text-sm font-light leading-relaxed mb-4 opacity-70">
               24 West Erie,<br />Chicago, IL 60654
@@ -98,7 +98,7 @@ const Footer = () => {
         </div>
 
         {/* Нижняя полоса */}
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+   <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="text-[10px] uppercase tracking-[0.2em] opacity-40">
             © 2026 Osaka Beauty House. All Rights Reserved.
           </p>
